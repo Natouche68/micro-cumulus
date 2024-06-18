@@ -3,7 +3,6 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:micro_cumulus/home.dart';
 import 'package:micro_cumulus/more_infos.dart';
 import 'package:micro_cumulus/forecasts.dart';
-import "package:google_fonts/google_fonts.dart";
 
 void main() {
   runApp(const MainApp());
@@ -35,11 +34,6 @@ class MainApp extends StatelessWidget {
             ),
           );
         },
-      ),
-      theme: ThemeData(
-        textTheme: GoogleFonts.unboundedTextTheme().apply(
-          bodyColor: const Color(0XFFD8E1FF),
-        ),
       ),
     );
   }
